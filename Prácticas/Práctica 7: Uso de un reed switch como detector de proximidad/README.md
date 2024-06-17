@@ -26,8 +26,8 @@ el circuito se abre y se señaliza con el encendido del led.
 
 Imagen: Montaje del circuito
 
-https://urjc-my.sharepoint.com/:i:/g/personal/a_leon_2020_alumnos_urjc_es/EQj40O0qGRlDtqnRPWnmoGMB9yQLjfyUJq6YfwvApMj9jA?e=tBuALF
+<p align="center">
+  <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%207:%20Uso%20de%20un%20reed%20switch%20como%20detector%20de%20proximidad/media/Imagen%20Circuito%20Pr%C3%A1ctica%207.jpg?raw=true">
+</p>
 
-Vídeo: Ejecución de la práctica
-
-https://urjc-my.sharepoint.com/:v:/g/personal/a_leon_2020_alumnos_urjc_es/EdlduFIVy9tKrlj-_gyu9fUB-DvhKlsfDpanX3XslRIM5Q?e=gtTujQ
+[Vídeo: Ejecución de la práctica](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%207%3A%20Uso%20de%20un%20reed%20switch%20como%20detector%20de%20proximidad/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%207.mp4)
