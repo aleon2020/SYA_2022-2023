@@ -55,18 +55,14 @@ El ejercicio que más me ha gustado realizar ha sido el último, ya que me ha gu
 
 Imagen: Montaje del circuito de la práctica 2.
 
-https://urjc-my.sharepoint.com/:i:/g/personal/a_leon_2020_alumnos_urjc_es/EaHZ6IlEMuxMnEbRgavM8FUB1iuTNfzQyim6DS07Y2M7xg?e=VGnAQ1
+<p align="center">
+  <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%202:%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica%20GPIO%20con%20el%20LED%20RGB/media/Imagen%20Circuito%20Pr%C3%A1ctica%202.jpg?raw=true">
+</p>
 
-Vídeo: Ejecución del ejercicio 1, apartado 1.
+[Vídeo: Ejecución del ejercicio 1, apartado 1.](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%202%3A%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica%20GPIO%20con%20el%20LED%20RGB/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%202%20Ejercicio%201%20Apartado%201.mp4)
 
-https://urjc-my.sharepoint.com/:v:/g/personal/a_leon_2020_alumnos_urjc_es/EWD6z8TeJFtBuKzDFkHzQa4BrVSFMrmguhpOp_cQXUtLvw?e=hVfVV6
+[Vídeo: Ejecución del ejercicio 1, apartado 2.](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%202%3A%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica%20GPIO%20con%20el%20LED%20RGB/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%202%20Ejercicio%201%20Apartado%202.mp4)
 
-Vídeo: Ejecución del ejercicio 1, apartado 2.
-
-https://urjc-my.sharepoint.com/:v:/g/personal/a_leon_2020_alumnos_urjc_es/EapaClS2V9VArmhXjVtxIEQBCDpUHGunxre86jI0nTBDGw?e=pc4xK2
-
-Vídeo: Ejecución del ejercicio 2.
-
-https://urjc-my.sharepoint.com/:v:/g/personal/a_leon_2020_alumnos_urjc_es/EcjQaPhYT6FEmhg72wKDYpoBY3lx0ptJXgUeLJGqPt6mFw?e=g9Yggd
+[Vídeo: Ejecución del ejercicio 2.](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%202%3A%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica%20GPIO%20con%20el%20LED%20RGB/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%202%20Ejercicio%202.mp4)
 
 NOTA: Este último ejercicio consistía en desarrollar el código de tal manera que el usuario pudiese elegir qué colores encender y apagar, y cuándo salir del programa. En el caso del vídeo, le he ordenado que encienda y apague los 7 colores disponibles en el mismo órden en el que vienen escritas sus funciones, y por último, le he ordenado salir del programa.
