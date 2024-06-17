@@ -10,7 +10,6 @@
 
 [![Elementos e interfaz GPIO de la Raspberry Pi](/home/alumnos/aalberto/Escritorio/Elementos e interfaz GPIO en Raspberry Pi.png)]
 
-
 ### 2. Comandos básicos (encendido de un LED)
 
 **import RPi.GPIO as GPIO**: Esta línea la debemos de escribir siempre que queramos usar los puertos GPIO.
@@ -33,7 +32,6 @@
 
 **GPIO.cleanup()**: Esta línea desactiva los puertos GPIO.
 
-
 ### 3. Opinión personal sobre esta práctica
 
 Para ser mi primera práctica en este entorno y al no tener conocimientos previos sobre ello, me ha parecido una primera práctica muy interesante y muy sencilla de entender.
@@ -44,13 +42,14 @@ Curiosamente, como ya he mencionado anteriormente, en esta primera práctica me 
 
 Imagen: Montaje del circuito (1)
 
-https://urjc-my.sharepoint.com/:i:/g/personal/a_leon_2020_alumnos_urjc_es/Eevo8mQMdqVHrqUElbberVgB19wZ8BPBoGisFRWMmtpjdA?e=LbyJkd
+<p align="center">
+  <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%201:%20Introducci%C3%B3n%20al%20uso%20de%20Raspberry%20Pi/media/Imagen%20Circuito%20Pr%C3%A1ctica%201%20(1).jpg?raw=true">
+</p>
 
 Imagen: Montaje del circuito (2)
 
-https://urjc-my.sharepoint.com/:i:/g/personal/a_leon_2020_alumnos_urjc_es/ETF-3P_-zaZHkEqeHjID85kBVBQ_GBmGDwq7N6bsIGSztw?e=DTiXNB
+<p align="center">
+  <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%201:%20Introducci%C3%B3n%20al%20uso%20de%20Raspberry%20Pi/media/Imagen%20Circuito%20Pr%C3%A1ctica%201%20(2).jpg?raw=true">
+</p>
 
-Vídeo: Video de ejecución de la práctica 1
-
-https://urjc-my.sharepoint.com/:v:/g/personal/a_leon_2020_alumnos_urjc_es/EWLKLwbhJ7VOmXtZhRswmL0BrOcD6ojpgb8H9a7Vvm9wuA?e=Q4R3Zm
-
+[Vídeo: Video de ejecución de la práctica 1](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%201%3A%20Introducci%C3%B3n%20al%20uso%20de%20Raspberry%20Pi/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%201.mp4)
