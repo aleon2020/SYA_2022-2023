@@ -18,8 +18,8 @@ el vídeo se adjunta para demostrar que el servo funciona).
 
 Imagen: Montaje del circuito de la práctica 10
 
-https://urjc-my.sharepoint.com/:i:/g/personal/a_leon_2020_alumnos_urjc_es/ERERfnk4rgZNlhNhD8UFcs0BQw032jYJ4N5g14HiHceZOQ?e=a0Xb90
+<p align="center">
+  <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Examen%20Final/Examen%20Final%20Pr%C3%A1ctica/media/Imagen%20Circuito%20Examen%20Final.jpg?raw=true">
+</p>
 
-Vídeo: Ejecución de la práctica 10
-
-https://urjc-my.sharepoint.com/:v:/g/personal/a_leon_2020_alumnos_urjc_es/Ef8W33Z6hn1LsERrOz4Dx88BHLxDRsnBAg8kdMC7yL5eGA?e=CeZxlO
+[Vídeo: Ejecución de la práctica 10](https://github.com/aleon2020/SYA_2022-2023/blob/main/Examen%20Final/Examen%20Final%20Pr%C3%A1ctica/media/Video%20Ejecucion%20Examen%20Final.mp4)
