@@ -40,12 +40,14 @@ disco y del tiempo que queremos que pase para que imprima las revoluciones por m
 
 Imagen: Disco encoder
 
-https://urjc-my.sharepoint.com/:i:/g/personal/a_leon_2020_alumnos_urjc_es/EY5dSbSk9_BGuQeXdyGxbN4BsePnAf3rwGDAjvpDYvRGJg?e=rvgdc3
+<p align="center">
+  <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%205:%20Construcci%C3%B3n%20de%20un%20encoder%20incremental%20usando%20un%20sensor%20%C3%B3ptico/media/Imagen%20Disco%20Pr%C3%A1ctica%205.jpg?raw=true">
+</p>
 
 Imagen: Montaje del circuito
 
-https://urjc-my.sharepoint.com/:i:/g/personal/a_leon_2020_alumnos_urjc_es/Ea43ORzFU_pAmbtVc0koDr4BNE8w02I_QHBP9uxC6sbjiA?e=oihiFp
+<p align="center">
+  <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%205:%20Construcci%C3%B3n%20de%20un%20encoder%20incremental%20usando%20un%20sensor%20%C3%B3ptico/media/Imagen%20Circuito%20Pr%C3%A1ctica%205.jpg?raw=true">
+</p>
 
-Vídeo: Ejecución de la práctica
-
-https://urjc-my.sharepoint.com/:v:/g/personal/a_leon_2020_alumnos_urjc_es/Eewz10Maz8BFn0L-SdymTFYBpVl3kcnEc9XUfnhV6_hgqQ?e=cLso3O
+[Vídeo: Ejecución de la práctica](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%205%3A%20Construcci%C3%B3n%20de%20un%20encoder%20incremental%20usando%20un%20sensor%20%C3%B3ptico/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%205.mp4)
