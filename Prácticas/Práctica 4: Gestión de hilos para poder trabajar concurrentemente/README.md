@@ -101,8 +101,8 @@ Sin embargo, para el segundo ejercicio, ya que al tratar de ejecutar todo dentro
 
 Imagen: Montaje del circuito de la práctica 4
 
-https://urjc-my.sharepoint.com/:i:/g/personal/a_leon_2020_alumnos_urjc_es/EdMIcIaazIFCgMAxPlKKoigBv3uuPeI07CDvZblA_eDQlw?e=ZBu08D
+<p align="center">
+  <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%204:%20Gesti%C3%B3n%20de%20hilos%20para%20poder%20trabajar%20concurrentemente/media/Imagen%20Circuito%20Pr%C3%A1ctica%204.jpg?raw=true">
+</p>
 
-Vídeo: Ejecución de la práctica 4
-
-https://urjc-my.sharepoint.com/:v:/g/personal/a_leon_2020_alumnos_urjc_es/EUgzfst5cEtEl9fc8cKTZJIB2uQFNCbrKPuWaxPJQ4t4JQ?e=wl1woY
+[Vídeo: Ejecución de la práctica 4](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%204%3A%20Gesti%C3%B3n%20de%20hilos%20para%20poder%20trabajar%20concurrentemente/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%204.mp4)
