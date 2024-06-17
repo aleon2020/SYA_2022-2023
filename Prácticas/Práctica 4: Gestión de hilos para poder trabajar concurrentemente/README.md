@@ -1,10 +1,4 @@
-# Resumen Sensores y Actuadores prácticas primer cuatrimestre
-
-# Alberto León Luengo
-
-## Grado de Ingeniería en Robótica Software
-
-## Práctica 4: Gestión de hilos para poder trabajar concurentemente
+# Práctica 4: Gestión de hilos para poder trabajar concurentemente
 
 ## 1. Gestión de hilos en Python
 
@@ -12,7 +6,7 @@
 
 Explicación del código: Al ejecutar este código, primero se muestra el último mensaje ("Hilo principal sigue su curso y termina") ya que este está en el programa principal, y por último se ha creado un hilo llamado "hilo1" asignado a la función tarea, que consiste en imprimir por pantalla el mensaje "Tarea del nuevo hilo hecha".
 
-```
+```py
 import threading
 import time
 
@@ -30,7 +24,7 @@ print ("Hilo principal sigue su curso y termina")
 
 Explicación del código: Al ejecutar este programa, lo que ha ocurrido es que se han creado dos hilos ("hilo1" e "hilo2"), y lo que hacen es ejecutar lo que hay dentro de la función tarea. Sin embargo, debido a las las dos líneas en las que aparece el nombre de los dos hilos junto a .join(), hace que éstos esperen a que uno de los dos termine de ejecutarse para que lo haga el siguiente, y como la función tarea consiste en un iterador que va desde el 0 hasta el 4, hace que en el resultado del programa se pueda observar como hilo1 e hilo2 se van alternando en la ejecución (es decir, una vez que hilo1 ha ejecutado su primera iteración, éste no ejecuta la segunda iteración hasta que hilo2 no haya ejecutado su primera iteración,y así sucesivamente). Y por último, se imprime el último mensaje que aparece en el código ("Hilo principal sigue su curso y termina").
 
-```
+```py
 import threading
 import time
 
@@ -57,7 +51,7 @@ print ("Hilo principal sigue su curso y termina")
 
 Explicación del código: Al ejecutar este código, podemos encontrarnos con varias similitudes respecto al apartado anterior. Tenemos dos hilos (hilo1 e hilo2) y una función tarea, con el mismo funcionamiento que en el apartado anterior (iterador que va del 0 al 4, pero con algunas diferencias). En el apartado anterior, podíamos observar cómo hilo1 e hilo2 se iban alternando en cada iteración, la diferencia es que aquí lo que ocurre es que hilo1 ejecuta primero todas sus iteraciones (de 0 a 4) e hilo2 no comenzará a ejecutarse hasta que hilo1 no termine TODAS sus iteraciones (esto se debe al .append que hemos añadido al vector que contiene todos los hilos, pasándole como parámetro cada hilo). Una vez hilo1 termine, hilo2 ejecutará todas sus iteraciones, mostrándolas todas de forma consecutiva debido al .join que tiene cada hilo en el código (en vez de alternarse las iteraciones como ocurría en el apartado anterior, solo se alternan en orden, es decir, primero se ejecuta el hilo1 completo y después el hilo2), y ya por último imprime por pantalla la última línea de código ("hilo principal sigue su curso y termina").
 
-```
+```py
 import threading
 import time
 
@@ -89,7 +83,7 @@ for h in misHilos:
 print ("Hilo principal sigue su curso y termina")
 ```
 
-### 2. Opinión personal sobre esta práctica
+## 2. Opinión personal sobre esta práctica
 
 Para la realizacion de esta practica he tenido que dedicarle bastante mas tiempo comparado con las anteiores. Sin embargo, cuando he comprendido el funcionamiento de todos los tipos de hilos que se nos introducen en esta practica me ha sido mucho mas llevadero y sencillo.
 
@@ -97,12 +91,10 @@ Para los ejercicios de sininterrupcionesmejorado.py e interrupcioneventmejorado.
 
 Sin embargo, para el segundo ejercicio, ya que al tratar de ejecutar todo dentro de un mismo programa, no me funcionaba, asi que he decidido tirar por hacerlo con programacion orientada a objetos (partiendo del programa threadsPOO.py), que se nos facilito en clase. Para ello, he creado un programa distinto por hilo (uno para el rojo y otro para el verde), por lo que de esta manera me ha funcionado, ejecutando cada programa en dos terminales distintas, haciendo que el programa tenga el mismo comportamiento que los dos anteriores.
 
-### 3. Contenido multimedia sobre esta práctica
-
-Imagen: Montaje del circuito de la práctica 4
+## 3. Contenido Multimedia
 
 <p align="center">
   <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%204:%20Gesti%C3%B3n%20de%20hilos%20para%20poder%20trabajar%20concurrentemente/media/Imagen%20Circuito%20Pr%C3%A1ctica%204.jpg?raw=true">
 </p>
 
-[Vídeo: Ejecución de la práctica 4](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%204%3A%20Gesti%C3%B3n%20de%20hilos%20para%20poder%20trabajar%20concurrentemente/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%204.mp4)
+[VIDEO EJECUCIÓN PRÁCTICA 4](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%204%3A%20Gesti%C3%B3n%20de%20hilos%20para%20poder%20trabajar%20concurrentemente/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%204.mp4)
