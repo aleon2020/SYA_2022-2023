@@ -1,25 +1,21 @@
-# Resumen Sensores y Actuadores prácticas primer cuatrimestre
+# Práctica 3: Uso de interrupciones para leer valores de un sensor
 
-# Alberto León Luengo
+## 1. Interrupciones o eventos
 
-## Grado de Ingeniería en Robótica Software
+Callback: Función especial que se pasa a otra como argumento. 
 
-## Práctica 3: Uso de interrupciones para leer valores de un sensor
+Ejemplo de callback:
 
-### 1. Interrupciones o eventos
-
-Callback: Función especial que se pasa a otra como argumento. Ejemplo de callback:
-
-```
+```py
 def botonPresionado():
 	print("El botón ha sido presionado")
 GPIO.add_event_detect(BUTTON_GPIO,GPIO.FALLING,
   callback = botonPresionado, bounceTime = 100)
 ```
 
-### 2. Método 0: Pidiendo el valor contínuamente
+## 2. Método 0: Pidiendo el valor contínuamente
 
-```
+```py
 import time
 import RPi.GPIO as GPIO
 
@@ -50,9 +46,9 @@ if __name__ == '__main__':
         time.sleep(0.1) # si pulsamos rápida/ veremos que algunas se escapan...
 ```
 
-### 3. Método 1: Interrupciones con wait_for_edge
+## 3. Método 1: Interrupciones con wait_for_edge
 
-```
+```py
 import RPi.GPIO as GPIO
 
 pulsadorGPIO = 16
@@ -66,9 +62,9 @@ if __name__ == '__main__':
         print("El boton se ha pulsado")
 ```
 
-### 4. Método 2: Interrupciones con add_event_detect
+## 4. Método 2: Interrupciones con add_event_detect
 
-```
+```py
 import signal
 import sys
 import RPi.GPIO as GPIO
@@ -97,7 +93,7 @@ if __name__ == '__main__':
     signal.pause()
 ```
 
-### 5. Opinión personal/explicación sobre esta práctica
+## 5. Opinión personal/explicación sobre esta práctica
 
 La solución al ejercicio 1 es muy sencilla: Al ejecutar el programa me he percatado de que se muestra más de una vez el mensaje de pulsado cuando realmente solo he pulsado el botón una vez. Para ello, lo único que he modificdo del programa original es que en la última línea del programa, dentro del bucle infinito, he añadido un sistema antirebote (mencionado así en el enunciado de esta práctica), que consiste en un time.sleep(0.1), ya que cuanto menor es la frecuencia, mayor será el alivio para el procesador, sin embargo, por este método siempre nos perderemos algunas comprobaciones. 
 
