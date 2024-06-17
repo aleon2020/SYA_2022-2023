@@ -39,8 +39,8 @@ el vídeo se adjunta para demostrar que el servo funciona).
 
 Imagen: Montaje del circuito de la práctica 10
 
-https://urjc-my.sharepoint.com/:i:/g/personal/a_leon_2020_alumnos_urjc_es/EUxNL2DuY3FDvMX8ZCu6jkUBcb7oV-TeA9aSdNifDkuOtQ?e=RwKMXB
+<p align="center">
+  <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%2010:%20Manejo%20de%20servo%20con%20retroalimentaci%C3%B3n%20posicional/media/Imagen%20Circuito%20Pr%C3%A1ctica%2010.jpg?raw=true">
+</p>
 
 Vídeo: Ejecución de la práctica 10
-
-https://urjc-my.sharepoint.com/:v:/g/personal/a_leon_2020_alumnos_urjc_es/Ebi_MjuR02VBpRDNiWn10wsBhr7EQ6jDVWZpziImviPWvw?e=fv1WEV
