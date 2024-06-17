@@ -37,8 +37,8 @@ NOTA: En la línea 16 de este último programa podemos cambiarle el atributo a p
 
 Imagen: Montaje del circuito
 
-https://urjc-my.sharepoint.com/:i:/g/personal/a_leon_2020_alumnos_urjc_es/EVGkrYqEe3FJpj8baLG1yHcB9R6wKQFK0rLg0V8wyqGSnQ?e=QTh5Hf
+<p align="center">
+  <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%208:%20Uso%20del%20sensor%20de%20humedad%20de%20suelo%20FC-28/media/Imagen%20Circuito%20Pr%C3%A1ctica%208.jpg?raw=true">
+</p>
 
-Vídeo: Ejecución de la práctica
-
-https://urjc-my.sharepoint.com/:v:/g/personal/a_leon_2020_alumnos_urjc_es/EXjuArS32DJGhjIR2lELHvsBAdZ-x50OuY8VPLRq0MyzCQ?e=KrWLZM
+[Vídeo: Ejecución de la práctica](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%208%3A%20Uso%20del%20sensor%20de%20humedad%20de%20suelo%20FC-28/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%208.mp4)
