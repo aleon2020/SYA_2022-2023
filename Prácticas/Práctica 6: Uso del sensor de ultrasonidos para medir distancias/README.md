@@ -49,8 +49,8 @@ amarillo), o a una distancia bastante cercana (led rojo).
 
 Imagen: Montaje del circuito de la práctica 6
 
-https://urjc-my.sharepoint.com/:i:/g/personal/a_leon_2020_alumnos_urjc_es/Eb1DveJvn6FBmYAZZyQEfzEB3FanTLZMtr7cfcFtZc2etQ?e=wuL6rC
+<p align="center">
+  <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%206:%20Uso%20del%20sensor%20de%20ultrasonidos%20para%20medir%20distancias/media/Imagen%20Circuito%20Pr%C3%A1ctica%206.jpg?raw=true">
+</p>
 
-Vídeo: Ejecución de la práctica 6
-
-https://urjc-my.sharepoint.com/:v:/g/personal/a_leon_2020_alumnos_urjc_es/ERYko9nWNyFBl1-E1CbpMIYBvTa2lGB4XcGpyPifXK2N7Q?e=07xBTw
+[Vídeo: Ejecución de la práctica 6](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%206%3A%20Uso%20del%20sensor%20de%20ultrasonidos%20para%20medir%20distancias/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%206.mp4)
