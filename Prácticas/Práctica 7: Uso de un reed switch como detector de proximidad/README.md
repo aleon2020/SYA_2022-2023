@@ -7,7 +7,7 @@ llevado muy poco tiempo. Para especificar aun más el uso del reed switch he ada
 inicialmente, cuando acabamos de ejecutar el programa el led esté apagado y se indique por pantalla que el circuito está
 cerrado; y que cuando acerquemos un imán, se separan las dos patillas metálicas que hay dentro del reed switch, y por tanto, el circuito se abre y se señaliza con el encendido del led.
 
-## 2. Contenido multimedia sobre esta práctica
+## 2. Contenido Multimedia
 
 <p align="center">
   <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%207:%20Uso%20de%20un%20reed%20switch%20como%20detector%20de%20proximidad/media/Imagen%20Circuito%20Pr%C3%A1ctica%207.jpg?raw=true">
