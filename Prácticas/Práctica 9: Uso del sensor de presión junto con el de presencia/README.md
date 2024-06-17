@@ -14,11 +14,11 @@ los valores del sensor (LOW si no ha pasado nada cerca del sensor y HIGH si algo
 
 Imagen: Ejercicio 1 apartado 1 (leer valores del sensor de presencia, ya sea LOW o HIGH)
 
-https://urjc-my.sharepoint.com/:i:/g/personal/a_leon_2020_alumnos_urjc_es/EWc03QfFs7hAjENj1R3BeB8Befap_omD7GYVOUAx29hNMg?e=Y9rbf2
+<p align="center">
+  <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%209:%20Uso%20del%20sensor%20de%20presi%C3%B3n%20junto%20con%20el%20de%20presencia/media/Imagen%20Circuito%20Pr%C3%A1ctica%209%20Ejercicio%201%20Apartado%201.jpg?raw=true">
+</p>
 
-Video: Ejecución del ejercicio 1 apartado 1
-
-https://urjc-my.sharepoint.com/:v:/g/personal/a_leon_2020_alumnos_urjc_es/EarYoGDY7MxCuBC5CfbqnTwBpbSsjrtxPobHryuakp1F5Q?e=no5vgO
+[Video: Ejecución del ejercicio 1 apartado 1](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%209%3A%20Uso%20del%20sensor%20de%20presi%C3%B3n%20junto%20con%20el%20de%20presencia/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%209%20Ejercicio%201%20Apartado%201.mp4)
 
 ### 2. El sensor de presión FSR
 
@@ -27,11 +27,11 @@ sensor, y el código que he implementado es básicamente el mismo que he utiliza
 
 Imagen: Ejercicio 1 apartado 2 (leer los valores del sensor de presión, ya sea LOW o HIGH).
 
-https://urjc-my.sharepoint.com/:i:/g/personal/a_leon_2020_alumnos_urjc_es/EQGp9CrbpVhBkr52lOW5m6QBiZCKdO1ycxfcNrQC-Z0R_A?e=V4azrM
+<p align="center">
+  <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%209:%20Uso%20del%20sensor%20de%20presi%C3%B3n%20junto%20con%20el%20de%20presencia/media/Imagen%20Circuito%20Pr%C3%A1ctica%209%20Ejercicio%201%20Apartado%202.jpg?raw=true">
+</p>
 
-Video: Ejecución del ejercicio 1 apartado 2
-
-https://urjc-my.sharepoint.com/:v:/g/personal/a_leon_2020_alumnos_urjc_es/EY0r4IhXGXhJiZB65Q1XCbgB2XnMvk3_Mct-BZsy8Q2fCg?e=tyBzDM
+[Video: Ejecución del ejercicio 1 apartado 2](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%209%3A%20Uso%20del%20sensor%20de%20presi%C3%B3n%20junto%20con%20el%20de%20presencia/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%209%20Ejercicio%201%20Apartado%202.mp4)
 
 ### 3. Opinión personal sobre esta práctica
 
@@ -48,8 +48,8 @@ y no detecte nada, siginificará que el tiempo que habíamos establecido previam
 
 Imagen: Montaje del circuito del ejercicio 2 (diseño de un sistema de iluminación inteligente)
 
-https://urjc-my.sharepoint.com/:i:/g/personal/a_leon_2020_alumnos_urjc_es/ER5o3-IxwfVGoesqwNWbMJwBw7urjK_KlUtCA4RYeI11Ew?e=StBpFq
+<p align="center">
+  <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%209:%20Uso%20del%20sensor%20de%20presi%C3%B3n%20junto%20con%20el%20de%20presencia/media/Imagen%20Circuito%20Pr%C3%A1ctica%209%20Ejercicio%202.jpg?raw=true">
+</p>
 
-Vídeo: Ejecución del apartado 2 (diseño de un sistema de iluminación inteligente)
-
-https://urjc-my.sharepoint.com/:v:/g/personal/a_leon_2020_alumnos_urjc_es/Eck1xqUZYztNqfY0AlUw_WEBLqXnzDv5ny4TUrXyD9HtUQ?e=PQRQoJ
+[Vídeo: Ejecución del apartado 2 (diseño de un sistema de iluminación inteligente)](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%209%3A%20Uso%20del%20sensor%20de%20presi%C3%B3n%20junto%20con%20el%20de%20presencia/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%209%20Ejercicio%202.mp4)
