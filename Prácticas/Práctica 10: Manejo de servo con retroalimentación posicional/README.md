@@ -43,4 +43,4 @@ Imagen: Montaje del circuito de la práctica 10
   <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%2010:%20Manejo%20de%20servo%20con%20retroalimentaci%C3%B3n%20posicional/media/Imagen%20Circuito%20Pr%C3%A1ctica%2010.jpg?raw=true">
 </p>
 
-Vídeo: Ejecución de la práctica 10
+[Vídeo: Ejecución de la práctica 10](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%2010%3A%20Manejo%20de%20servo%20con%20retroalimentaci%C3%B3n%20posicional/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%2010.mp4)
