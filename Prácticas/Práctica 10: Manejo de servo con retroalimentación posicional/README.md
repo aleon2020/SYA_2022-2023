@@ -30,8 +30,6 @@ Aunque se pidan 2 ejercicios, solo he subido uno, ya que el funcionamiento de lo
 
 ## 3. Contenido Multimedia
 
-IMAGEN CIRCUITO PRÁCTICA 10
-
 <p align="center">
   <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%2010:%20Manejo%20de%20servo%20con%20retroalimentaci%C3%B3n%20posicional/media/Imagen%20Circuito%20Pr%C3%A1ctica%2010.jpg?raw=true">
 </p>
