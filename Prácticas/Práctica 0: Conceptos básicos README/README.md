@@ -1,33 +1,33 @@
 # Ejemplo de fichero README.md
 ## (CC-BY-NC-SA) Julio Vega
 
-El objetivo de este **fichero README.md de ejemplo** es conocer el uso básico de *MarkDown* para que los estudiantes se familiaricen con este lenguaje.
+The purpose of this **sample README.md file** is to introduce students to the basics of *MarkDown* so they can become familiar with the language.
 
-## 0. Introducción
+## 0. Introduction
 
-Las secciones van precedidas de varias almohadillas, según el anidamiento de la sección. Se añade el número de la sección y el título.
+Sections are preceded by several hash marks, depending on the nesting of the section. The section number and title are added.
 
-## 1. Uso básico
+## 1. Basic Use
 
-### 1.1. Cursiva y negrita
+### 1.1. Italics and Bold
 
-Para poner un texto en cursiva, se mete este entre asteriscos simples. Por ejemplo, para escribir términos anglosajones como *dashboard* o *upgrade*.
+To italicize text, enclose it between single asterisks. For example, to write Anglo-Saxon terms like *dashboard* or *upgrade*.
 
-Si quiero poner un texto en negrita, seguiremos la misma sintaxis, pero usando dobles asteriscos, por ejemplo para resaltar alguna palabra **importante**.
+If I want to make text bold, we'll follow the same syntax, but use double asterisks, for example to highlight an **important** word.
 
-### 1.2. Enumerados
+### 1.2. Enumerated
 
-Simplemente, hago un listado de ítems, precedidos por su número o posición. Por ejemplo, el siguiente listado:
+I simply make a list of items, preceded by their number or position. For example, the following list:
 
-1. Primer ítem
-2. Segundo ítem
-3. Y así sucesivamente...
+1. First item
+2. Second item
+3. And so on...
 
-## 2. Incluir texto especial
+## 2. Including special text
 
 ### 2.1. Snippets
 
-Un *snippet* es un trozo de código, muy útil en el contexto de programación para, por ejemplo, resaltar alguna funcionalidad del programa. En este ejemplo, exponemos un *snippet* en lenguaje Python:
+A snippet is a piece of code, very useful in a programming context, for example, to highlight a program's functionality. In this example, we present a snippet in Python:
 
 ```python
 for fila in range(0, len(misFilas)): # recorro todas la filas del vector
@@ -38,9 +38,9 @@ for fila in range(0, len(misFilas)): # recorro todas la filas del vector
         filaValida = Convertir (a)
 ```
 
-### 2.2. Instrucciones de Terminal (bash)
+### 2.2. Terminal Commands (bash)
 
-Si queremos incluir las instrucciones de Terminal que usamos, por ejemplo, para ejecutar nuestro programa, tenemos el entorno *bash*. Ejemplo:
+If we want to include the Terminal commands we use, for example, to run our program, we have the *bash* environment. Example:
 
 ```bash
 make
@@ -48,14 +48,14 @@ make install
 ./miprograma
 ```
 
-## 3. Incluir recursos
+## 3. Including Resources
 
-### 3.1. Imágenes
+### 3.1. Images
 
-Aquí podemos ver el logo de GitHub:
+Here we can see the GitHub logo::
 
 ![alt text](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png "Logo de GitHub")
 
-### 3.1. Enlaces
+### 3.1. Links
 
-Recordad que podréis acceder a todas las prácticas en nuestro [repo *clases-julio*](https://github.com/clases-julio)
+Remember that you can access all the practices on our [repo *clases-julio*](https://github.com/clases-julio)
