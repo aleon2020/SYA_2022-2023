@@ -1,10 +1,10 @@
 # Práctica 4: Gestión de hilos para poder trabajar concurentemente
 
-## 1. Gestión de hilos en Python
+## 1. Thread Management in Python
 
-### 1.1 El holamundo de la gestión de hilos
+### 1.1 The Hello World of Thread Management
 
-Explicación del código: Al ejecutar este código, primero se muestra el último mensaje ("Hilo principal sigue su curso y termina") ya que este está en el programa principal, y por último se ha creado un hilo llamado "hilo1" asignado a la función tarea, que consiste en imprimir por pantalla el mensaje "Tarea del nuevo hilo hecha".
+Code Explanation: When running this code, the last message ("Main thread runs its course and terminates") is displayed first, since it is in the main program. Finally, a thread called "thread1" is created and assigned to the task function, which prints the message "New thread task done" to the screen.
 
 ```py
 import threading
@@ -20,9 +20,9 @@ hilo1.start()
 print ("Hilo principal sigue su curso y termina")
 ```
 
-### 1.2 Uso del join para esperar a que termine un hilo
+### 1.2 Using join to wait for a thread to finish
 
-Explicación del código: Al ejecutar este programa, lo que ha ocurrido es que se han creado dos hilos ("hilo1" e "hilo2"), y lo que hacen es ejecutar lo que hay dentro de la función tarea. Sin embargo, debido a las las dos líneas en las que aparece el nombre de los dos hilos junto a .join(), hace que éstos esperen a que uno de los dos termine de ejecutarse para que lo haga el siguiente, y como la función tarea consiste en un iterador que va desde el 0 hasta el 4, hace que en el resultado del programa se pueda observar como hilo1 e hilo2 se van alternando en la ejecución (es decir, una vez que hilo1 ha ejecutado su primera iteración, éste no ejecuta la segunda iteración hasta que hilo2 no haya ejecutado su primera iteración,y así sucesivamente). Y por último, se imprime el último mensaje que aparece en el código ("Hilo principal sigue su curso y termina").
+Code explanation: When running this program, two threads ("thread1" and "thread2") have been created, and they execute what is inside the task function. However, due to the two lines in which the names of the two threads appear next to .join(), they have to wait for one of the two to finish executing before the next one can do so. Since the task function consists of an iterator that ranges from 0 to 4, the program output shows how thread1 and thread2 alternate execution (that is, once thread1 has executed its first iteration, it does not execute the second iteration until thread2 has executed its first iteration, and so on). Finally, the last message in the code is printed ("Main thread continues and terminates").
 
 ```py
 import threading
@@ -47,9 +47,9 @@ hilo2.join() # idem con hilo2
 print ("Hilo principal sigue su curso y termina")
 ```
 
-### 1.3 Sincronización
+### 1.3 Synchronization
 
-Explicación del código: Al ejecutar este código, podemos encontrarnos con varias similitudes respecto al apartado anterior. Tenemos dos hilos (hilo1 e hilo2) y una función tarea, con el mismo funcionamiento que en el apartado anterior (iterador que va del 0 al 4, pero con algunas diferencias). En el apartado anterior, podíamos observar cómo hilo1 e hilo2 se iban alternando en cada iteración, la diferencia es que aquí lo que ocurre es que hilo1 ejecuta primero todas sus iteraciones (de 0 a 4) e hilo2 no comenzará a ejecutarse hasta que hilo1 no termine TODAS sus iteraciones (esto se debe al .append que hemos añadido al vector que contiene todos los hilos, pasándole como parámetro cada hilo). Una vez hilo1 termine, hilo2 ejecutará todas sus iteraciones, mostrándolas todas de forma consecutiva debido al .join que tiene cada hilo en el código (en vez de alternarse las iteraciones como ocurría en el apartado anterior, solo se alternan en orden, es decir, primero se ejecuta el hilo1 completo y después el hilo2), y ya por último imprime por pantalla la última línea de código ("hilo principal sigue su curso y termina").
+Code Explanation: When running this code, we find several similarities with the previous section. We have two threads (thread1 and thread2) and a task function, which works the same as in the previous section (an iterator that goes from 0 to 4, but with some differences). In the previous section, we could see how thread1 and thread2 alternated in each iteration. The difference here is that thread1 executes all its iterations first (from 0 to 4), and thread2 will not begin executing until thread1 finishes ALL of its iterations (this is due to the .append we added to the vector containing all the threads, passing each thread as a parameter). Once thread1 finishes, thread2 will execute all of its iterations, showing them all consecutively due to the .join that each thread has in the code (instead of alternating the iterations as it happened in the previous section, they only alternate in order, that is, first the complete thread1 is executed and then thread2), and finally it prints the last line of code on the screen ("main thread continues its course and finishes").
 
 ```py
 import threading
@@ -83,18 +83,18 @@ for h in misHilos:
 print ("Hilo principal sigue su curso y termina")
 ```
 
-## 2. Opinión personal sobre esta práctica
+## 2. Personal opinion on this exercise
 
-Para la realizacion de esta practica he tenido que dedicarle bastante mas tiempo comparado con las anteiores. Sin embargo, cuando he comprendido el funcionamiento de todos los tipos de hilos que se nos introducen en esta practica me ha sido mucho mas llevadero y sencillo.
+I had to dedicate considerably more time to completing this exercise compared to the previous ones. However, once I understood how all the thread types introduced in this exercise worked, it was much easier and more manageable.
 
-Para los ejercicios de sininterrupcionesmejorado.py e interrupcioneventmejorado.py he utilizado el mecanismo basico de hilos para hacer funcionar los dos leds, cada uno con su respectivo boton.
+For the sininterrupcionesmejorado.py and interrupcioneventmejorado.py exercises, I used the basic thread mechanism to operate the two LEDs, each with its respective button.
 
-Sin embargo, para el segundo ejercicio, ya que al tratar de ejecutar todo dentro de un mismo programa, no me funcionaba, asi que he decidido tirar por hacerlo con programacion orientada a objetos (partiendo del programa threadsPOO.py), que se nos facilito en clase. Para ello, he creado un programa distinto por hilo (uno para el rojo y otro para el verde), por lo que de esta manera me ha funcionado, ejecutando cada programa en dos terminales distintas, haciendo que el programa tenga el mismo comportamiento que los dos anteriores.
+However, for the second exercise, since trying to run everything within a single program didn't work for me, I decided to use object-oriented programming (based on the threadsPOO.py program), which was provided in class. To do this, I created a separate program for each thread (one for the red thread and one for the green thread). This way, it worked for me, running each program in two different terminals, ensuring the program behaves exactly the same as the previous two.
 
-## 3. Contenido Multimedia
+## 3. Multimedia Content
 
 <p align="center">
   <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%204:%20Gesti%C3%B3n%20de%20hilos%20para%20poder%20trabajar%20concurrentemente/media/Imagen%20Circuito%20Pr%C3%A1ctica%204.jpg?raw=true">
 </p>
 
-[VIDEO EJECUCIÓN PRÁCTICA 4](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%204%3A%20Gesti%C3%B3n%20de%20hilos%20para%20poder%20trabajar%20concurrentemente/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%204.mp4)
+[PRACTICE 4 EXECUTION VIDEO](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%204%3A%20Gesti%C3%B3n%20de%20hilos%20para%20poder%20trabajar%20concurrentemente/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%204.mp4)
