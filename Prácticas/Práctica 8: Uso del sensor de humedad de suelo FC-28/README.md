@@ -1,28 +1,28 @@
 # Práctica 8: Uso del sensor de humedad de suelo FC-28
 
-## 1. Pines del módulo M393
+## 1. M393 Module Pins
 
-En este módulo se pueden apreciar cuatro pines (a su vez, con algunas siglas):
+This module displays four pins (with acronyms):
 
-- VCC: Es el pin al cual conectar uno de los pines 3v3 del raíl GPIO.
-- GND: Directamente a un pin GPIO de toma de tierra.
-- DO: Las siglas provienen de Digital Output.
-- AO: Este pin es el alternativo al anterior, cuyas siglas significan Analog Output.
+- VCC: This pin connects to one of the 3v3 pins on the GPIO rail.
+- GND: Directly to a GPIO ground pin.
+- DO: This acronym stands for Digital Output.
+- AO: This pin is an alternative to the previous one, which stands for Analog Output.
 
-## 2. Opinión personal sobre esta práctica
+## 2. Personal Opinion on this Practice
 
-Esta práctica me ha parecido bastante sencilla de realizar, ya que simplemente con ver la imagen del esquema de conexión, no me ha sido necesaria la  utlización de la protoboard para realizar esta práctica.
+I found this practice to be quite simple to complete, since simply looking at the connection diagram, I didn't need to use a breadboard to complete this practice.
 
-En mi caso, he creado dos programas, el primero se llama "sensordehumedad.py", cuyo principal funcionamiento es leer los valores del sensor de humedad y mostrar por pantalla cuando el mismo se encuentra en estado húmedo o seco, y una vez termina de ejecutarse el programa, coge esos valores y los guarda en un fichero al que he llamado "registrodecambios.csv", que, básicamente lo que hace es mostrar si el sensor se encuentra en estado de humedad o sequía (en mi caso, se imprimen esos valores cada dos segundos).
+In my case, I created two programs. The first is called "humiditysensor.py." Its main function is to read the values ​​from the humidity sensor and display on the screen whether it is wet or dry. Once the program finishes running, it takes those values ​​and saves them in a file called "changelog.csv." This basically shows whether the sensor is wet or dry (in my case, these values ​​are printed every two seconds).
 
-Y por último, el segundo programa, al que he llamado "graficasensordehumedad.py", que consiste en tomar los valores del fichero "registrodecambiosdehumedad.csv", y los inserta en una gráfica mediante el uso de algunas librerías que no había usado hata ahora en python, como son las librerías pandas y matplotlib, que mediante varias búsquedas por internet me han parecido la solución más viable para resolver este problema. Este programa lo que hace es, básicamente, coger esos valores (los que se incluyen dentro de la columna Timestamp y la columna Humedad), y los representa en una gráfica (para poder representar cuando el sensor se encuentra en estado húmedo o seco he asignado a dichos estados las variables 1 y 0, respectivamente).
+Finally, the second program, which I called "humusensorgraph.py," takes the values ​​from the "humiditychangelog.csv" file and inserts them into a graph using some libraries I hadn't used before in Python, such as pandas and matplotlib. After several internet searches, these libraries seemed to me to be the most viable solution for this problem. What this program does is basically take those values ​​(those included in the Timestamp column and the Humidity column), and represent them in a graph (to be able to represent when the sensor is in a wet or dry state I have assigned the variables 1 and 0 to said states, respectively).
 
-NOTA: En la línea 16 de este último programa podemos cambiarle el atributo a plt para que pueda mostrarnos la gráfica de diferentes maneras (gráfico de barras, puntos, líneas, ...).
+**NOTE**: On line 16 of this last program we can change the attribute to plt so that it can show us the graph in different ways (bar graph, points, lines, ...).
 
-## 3. Contenido Multimedia
+## 3. Multimedia Content
 
 <p align="center">
   <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%208:%20Uso%20del%20sensor%20de%20humedad%20de%20suelo%20FC-28/media/Imagen%20Circuito%20Pr%C3%A1ctica%208.jpg?raw=true">
 </p>
 
-[VIDEO EJECUCIÓN PRÁCTICA 8](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%208%3A%20Uso%20del%20sensor%20de%20humedad%20de%20suelo%20FC-28/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%208.mp4)
+[PRACTICE 8 EXECUTION VIDEO](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%208%3A%20Uso%20del%20sensor%20de%20humedad%20de%20suelo%20FC-28/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%208.mp4)
