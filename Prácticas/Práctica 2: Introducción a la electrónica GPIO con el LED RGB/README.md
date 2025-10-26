@@ -1,10 +1,10 @@
 # Práctica 2: Introducción a la electrónica GPIO con el led RGB
 
-## 1. El led RGB
+## 1. The RGB LED
 
-Un led RGB está compuesto por 4 pines: Los colores corresponden con los pines 1, 3 y 4 (rojo, verde y azul, respectivamente), mientras que el pin 2 corresponde con el cátodo.
+An RGB LED consists of 4 pins: The colors correspond to pins 1, 3, and 4 (red, green, and blue, respectively), while pin 2 corresponds to the cathode.
 
-## 2. Ejemplo de programación del led RGB
+## 2. RGB LED programming example
 
 ```py
 import time,sys
@@ -35,26 +35,26 @@ if __name__ == '__main__':
 	main()
 ```
 
-## 3. Opinión personal sobre esta práctica
+## 3. Personal opinion on this practice
 
-Esta práctica me ha sido más rápida de realizar, ya que después de la práctica anterior ya vengo familiarizado con el entorno de desarrollo de prácticas y me ha sido menos costosa llevarla a cabo.
+This practice was faster for me to complete, since I was already familiar with the practice development environment after the previous practice, and it was less difficult to complete.
 
-Sin embargo, uno de los problemas más grandes que me he podido encontrar en esta práctica, al igual que muchos de mis compañeros, ha sido el cambio de polaridad del led RGB, ya que nos ha hecho modificar el circuito a como venía principalmente en el enunciado de la práctica.
+However, one of the biggest problems I encountered in this practice, like many of my classmates, was changing the polarity of the RGB LED, as it required us to modify the circuit from what was primarily described in the practice statement.
 
-El código que se requería me ha sido muy fácil de desarrollar, ya que la única "ayuda externa" que he necesitado en esta práctica es consultar la tabla de valores de los colores RGB y sus derivados, para poder crear las funciones de encendido y apagado de dichos colores.
+The code required was very easy for me to develop, as the only "external help" I needed in this exercise was to consult the table of RGB color values ​​and their derivatives to create the functions to turn those colors on and off.
 
-El ejercicio que más me ha gustado realizar ha sido el último, ya que me ha gustado mucho la idea de jugar con el usuario para ver que acción le gustaría realizar.
+The exercise I enjoyed doing the most was the last one, as I really liked the idea of ​​playing with the user to see what action they would like to perform.
 
-### 4. Contenido Multimedia
+### 4. Multimedia Content
 
 <p align="center">
   <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%202:%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica%20GPIO%20con%20el%20LED%20RGB/media/Imagen%20Circuito%20Pr%C3%A1ctica%202.jpg?raw=true">
 </p>
 
-[VIDEO EJECUCIÓN PRÁCTICA 2 EJERCICIO 1 APARTADO 1](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%202%3A%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica%20GPIO%20con%20el%20LED%20RGB/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%202%20Ejercicio%201%20Apartado%201.mp4)
+[PRACTICE 2 EXECUTION VIDEO EXERCISE 1 POINT 1](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%202%3A%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica%20GPIO%20con%20el%20LED%20RGB/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%202%20Ejercicio%201%20Apartado%201.mp4)
 
-[VIDEO EJECUCIÓN PRÁCTICA 2 EJERCICIO 1 APARTADO 2](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%202%3A%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica%20GPIO%20con%20el%20LED%20RGB/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%202%20Ejercicio%201%20Apartado%202.mp4)
+[PRACTICE 2 EXECUTION VIDEO EXERCISE 1 POINT 2](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%202%3A%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica%20GPIO%20con%20el%20LED%20RGB/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%202%20Ejercicio%201%20Apartado%202.mp4)
 
-[VIDEO EJECUCIÓN PRÁCTICA 2](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%202%3A%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica%20GPIO%20con%20el%20LED%20RGB/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%202%20Ejercicio%202.mp4)
+[PRACTICE 2 EXECUTION VIDEO](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%202%3A%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica%20GPIO%20con%20el%20LED%20RGB/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%202%20Ejercicio%202.mp4)
 
-NOTA: Este último ejercicio consistía en desarrollar el código de tal manera que el usuario pudiese elegir qué colores encender y apagar, y cuándo salir del programa. En el caso del vídeo, le he ordenado que encienda y apague los 7 colores disponibles en el mismo órden en el que vienen escritas sus funciones, y por último, le he ordenado salir del programa.
+**NOTE**: This last exercise involved developing the code in such a way that the user could choose which colors to turn on and off, and when to exit the program. In the case of the video, I instructed it to turn the 7 available colors on and off in the same order in which their functions are written, and finally, I instructed it to exit the program.
