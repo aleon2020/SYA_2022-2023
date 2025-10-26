@@ -1,37 +1,37 @@
 # Práctica 10: Manejo de Servo con Retroalimentación Posicional
 
-## 1. Funcionamiento y conexión del servo
+## 1. Servo Operation and Connection
 
-Para poder programar el servo, y como siempre, lo primero es conocer cómo funciona, y para ello lo mejor es leer las especificaciones adjuntas a esta práctica. De estas podemos extraer información muy útil, por ejemplo, los siguientes aspectos:
+To program the servo, and as always, the first step is to understand how it works. To do this, it's best to read the specifications attached to this lab. We can glean very useful information from these specifications, such as the following:
 
-- Pin de señal de retroalimentación de posición: cable amarillo.
+- Position feedback signal pin: yellow wire.
 
-- Periodo de envı́o de señal de control: 20 ms.
+- Control signal transmission period: 20 ms.
 
-- Ancho de pulso de la señal: p.ej. 1280 − 1480µs para girar en un sentido.
+- Signal pulse width: e.g., 1280 − 1480 µs for one-way rotation.
 
-- Periodo de señal de retroalimentación (tCycle): 1/910 Hz (1,1 ms).
+- Feedback signal period (tCycle): 1/910 Hz (1.1 ms).
 
-- Ciclo de trabajo de tCycle: 2,9 − 91,7 %
+- tCycle duty cycle: 2.9 − 91.7%
 
-## 2. Opinión personal sobre esta práctica
+## 2. Personal opinion on this practice
 
-Esta práctica me ha parecido bastante sencilla de realizar y me ha llevado muy poco tiempo realizar los programas que se me pedían. En mi opinión, es una de las prácticas de todas las que hemos realizado este curso que más me ha gustado y parecido más interesante. 
+I found this practice to be quite easy to complete, and it took me very little time to complete the programs required. In my opinion, it's one of the practices I liked the most and found most interesting of all the practices we've completed in this course.
 
-A continuación explico como he llevado a cabo los dos ejercicios que se nos pedían:
+Below I explain how I carried out the two exercises required:
 
-En el primer ejercicio he utilizado los valores del 1 al 0 a leer por teclado para asignar diferentes velocidades a ambos sentidos de giro del servo. Como bien se especifica en los comentarios del programa, he usado los números del 1 al 5 para ir de la velocidad más baja a la más alta cuando el servo gira en sentido horario, al contrario que para el sentido antihorario, donde he establecido los números del 0 al 6 (en ese orden), de menor a mayor velocidad, obteniendo el siguiente esquema de velocidades: 1 < 2 < 3 < 4 < 5 = 6 > 7 > 8 > 9 > 0, siendo del 1 al 5 los valores que giran en sentido horario (velocidad mínima 1 y velocidad máxima 5) y del 6 al 0 los que giran en sentido antihorario (velocidad mínima 0 y velocidad máxima 6).
+In the first exercise, I used the values ​​1 to 0 read from the keyboard to assign different speeds to both directions of the servo's rotation. As clearly specified in the program comments, I used the numbers 1 to 5 to go from the lowest to the highest speed when the servo rotates clockwise, as opposed to counterclockwise, where I set the numbers 0 to 6 (in that order), from lowest to highest speed, obtaining the following speed scheme: 1 < 2 < 3 < 4 < 5 = 6 > 7 > 8 > 9 > 0, with 1 to 5 being the values ​​for clockwise rotation (minimum speed 1 and maximum speed 5) and 6 to 0 being the values ​​for counterclockwise rotation (minimum speed 0 and maximum speed 6).
 
-Para el segundo ejercicio he utilizado los mismos métodos que en el apartado anterior, solo que en este caso, lo único que he modificado con respecto al anterior es que solo he establecido un sentido de giro (sentido horario), y que dichos valores que marcan esos rangos de velocidad los he guardado en 5 variables diferentes (MIN_SPEED para la velocidad mínima, MAX_SPEED para la velocidad máxima, y otras 3 variables más que he utilizado para valores intermedios de la velocidad).
+For the second exercise, I used the same methods as in the previous section. However, in this case, the only thing I've modified compared to the previous one is that I only set one rotation direction (clockwise), and I saved the values ​​that define these speed ranges in five different variables (MIN_SPEED for minimum speed, MAX_SPEED for maximum speed, and three more variables that I used for intermediate speed values).
 
-Como se muestra en la imagen adjunta, he conectado el able rojo a 5V, el negro a GND y el blanco a un puerto GPIO determinado (en mi caso he utilizado el 2).
+As shown in the attached image, I connected the red wire to 5V, the black wire to GND, and the white wire to a specific GPIO port (in my case, I used GPIO port 2).
 
-Aunque se pidan 2 ejercicios, solo he subido uno, ya que el funcionamiento de los programas es el mismo, solo cambiando las teclas que hay que pulsar para obtener diferentes valores de la velocidad en diferentes sentidos (básicamente el vídeo se adjunta para demostrar que el servo funciona).
+Although two exercises are required, I only uploaded one, since the programs operate the same, only changing the keys you need to press to obtain different speed values ​​in different directions (basically, the video is attached to demonstrate that the servo works).
 
-## 3. Contenido Multimedia
+## 3. Multimedia Content
 
 <p align="center">
   <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%2010:%20Manejo%20de%20servo%20con%20retroalimentaci%C3%B3n%20posicional/media/Imagen%20Circuito%20Pr%C3%A1ctica%2010.jpg?raw=true">
 </p>
 
-[VIDEO EJECUCIÓN PRÁCTICA 10](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%2010%3A%20Manejo%20de%20servo%20con%20retroalimentaci%C3%B3n%20posicional/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%2010.mp4)
+[PRACTICE 10 EXECUTION VIDEO](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%2010%3A%20Manejo%20de%20servo%20con%20retroalimentaci%C3%B3n%20posicional/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%2010.mp4)
