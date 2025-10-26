@@ -1,58 +1,55 @@
 # Práctica 6: Uso del sensor ultrasonidos para medir distancias
 
-## 1. Introducción
+## 1. Introduction
 
-Periodo de tiempo transcurrido entre la emisión de onda y la recepción de su eco, representado por la ecuación:
+The period of time elapsed between the emission of a wave and the reception of its echo, represented by the equation:
 						
 ```bash
 d = 1/2*Vs*t
 ```
 
-Donde d (distancia del emisor-receptor al objeto, en metros), Vs (velocidad del sonido) y t (tiempo transcurrido, en segundos).
+Where d (distance from the transmitter-receiver to the object, in meters), Vs (speed of sound), and t (elapsed time, in seconds).
 
-## 2. Sensor de ultrasonidos HC-SR04
+## 2. HC-SR04 Ultrasonic Sensor
 
-EL sensor de ultrasonido que vamos a utilizar para esta práctica consta de 4 pines: VCC (pin de alimentación del sensor de 5V), Trig (pin de disparo/salida que habilita la medición del sensor), echo (señal de entrada al sistema), GND (pin negativo de alimentación o toma de tierra).
+The ultrasonic sensor we will use for this exercise consists of 4 pins: VCC (5V sensor power pin), Trig (trigger/output pin that enables sensor measurement), echo (input signal to the system), and GND (negative power pin or ground).
 
-Comienzo de la medición: Primero se aplica un pulso o señal en alto a través del pin Trig, con una duración de al menos 10 microsegundos. Después, el sensor envía una serie de 8 pulsos de 40 KHz, poniendo el pin de Echo en alto, permaneciendo en este estado hasta que se reciba el eco de los pulsos de 40 KHz. Conclusión: Este tiempo es el que se toma en cuenta para estimar la distancia a la que se encuentra el objeto.
+Measurement start: First, a high pulse or signal is applied through the Trig pin, lasting at least 10 microseconds. The sensor then sends a series of eight 40 kHz pulses, setting the Echo pin high. The signal remains high until the echo of the 40 kHz pulses is received. Conclusion: This time is used to estimate the distance to the object.
 
-## 3. Cálculo de la distancia al objeto
+## 3. Calculating the distance to the object
 
-Fórmula que refleja la distancia con la velocidad:
+Formula that reflects distance versus speed:
 
 ```bash
 v = s/t <=> d = v*t
 ```
 					
-Considerando la velocidad del sonido en el aire de 343 m/s, nos queda la ecuación:
+Considering the speed of sound in air of 343 m/s, we have the equation:
 
 ```bash
 d = v*t => d = 343*t
 ```
 					
-En nuestro caso, como estamos usando el sensor en Reflexión directa (d es el doble de la distancia real dr entre el sensor y el objeto), donde nos queda la ecuación:
+In our case, since we are using the sensor in Direct Reflection (d is twice the actual distance dr between the sensor and the object), where we have the equation:
 
 ```bash
 d = 343*t => dr = 171,5*t
 ```
 				  
-Por último, adaptamos a las unidades que se manejan en el problema en particular (centímetros y microsegundos), para que nos resulte más cómodo trabajar con ella.
+Finally, we adapt it to the units used in the particular problem (centimeters and microseconds) to make it more convenient for us to work with.
 
 ```bash
 dr = 171,5*t = 17150*10^-6*t
 ```
 
-## 4. Opinión personal sobre esta práctica
+## 4. Personal opinion on this practice
 
-El desarrolllo de esta práctica me ha parecido bastante sencillo, donde las únicas complicaciones que me he podido encontrar han sido a la hora de buscar el esquema de conexión ideal para el sensor de
-ultrasonido. El esquema de conexión y el funcionamiento del programa son bastante sencillos y visibles, ya que por un lado, el sensor de distancia hace su tarea habitual leyendo cada segundo los valores de 
-la distancia a la que está el objeto, y por otro lado he implementado tres leds de diferentes colores asociados a si el objeto se encuentra a una distancia lejana (led verde), a una distancia media (led
-amarillo), o a una distancia bastante cercana (led rojo).
+I found the development of this practice to be quite simple, and the only complications I encountered were in finding the ideal connection diagram for the ultrasound sensor. The connection diagram and the program's operation are quite simple and straightforward. On the one hand, the distance sensor performs its usual task, reading the distance values ​​to the object every second. On the other hand, I implemented three LEDs of different colors associated with whether the object is at a far distance (green LED), a medium distance (yellow LED), or a fairly close distance (red LED).
 
-## 5. Contenido Multimedia
+## 5. Multimedia Content
 
 <p align="center">
   <img src="https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%206:%20Uso%20del%20sensor%20de%20ultrasonidos%20para%20medir%20distancias/media/Imagen%20Circuito%20Pr%C3%A1ctica%206.jpg?raw=true">
 </p>
 
-[VIDEO EJECUCIÓN PRÁCTICA 6](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%206%3A%20Uso%20del%20sensor%20de%20ultrasonidos%20para%20medir%20distancias/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%206.mp4)
+[PRACTICE 6 EXECUTION VIDEO](https://github.com/aleon2020/SYA_2022-2023/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%206%3A%20Uso%20del%20sensor%20de%20ultrasonidos%20para%20medir%20distancias/media/Video%20Ejecuci%C3%B3n%20Pr%C3%A1ctica%206.mp4)
