@@ -1,10 +1,10 @@
 # Práctica 3: Uso de interrupciones para leer valores de un sensor
 
-## 1. Interrupciones o eventos
+## 1. Interrupts or Events
 
-Callback: Función especial que se pasa a otra como argumento. 
+Callback: A special function that is passed to another function as an argument.
 
-Ejemplo de callback:
+Callback example:
 
 ```py
 def botonPresionado():
@@ -13,7 +13,7 @@ GPIO.add_event_detect(BUTTON_GPIO,GPIO.FALLING,
   callback = botonPresionado, bounceTime = 100)
 ```
 
-## 2. Método 0: Pidiendo el valor contínuamente
+## 2. Method 0: Asking for the value continuously
 
 ```py
 import time
@@ -46,7 +46,7 @@ if __name__ == '__main__':
         time.sleep(0.1) # si pulsamos rápida/ veremos que algunas se escapan...
 ```
 
-## 3. Método 1: Interrupciones con wait_for_edge
+## 3. Method 1: Interrupts with wait_for_edge
 
 ```py
 import RPi.GPIO as GPIO
@@ -62,7 +62,7 @@ if __name__ == '__main__':
         print("El boton se ha pulsado")
 ```
 
-## 4. Método 2: Interrupciones con add_event_detect
+## 4. Method 2: Interrupts with add_event_detect
 
 ```py
 import signal
@@ -93,14 +93,14 @@ if __name__ == '__main__':
     signal.pause()
 ```
 
-## 5. Opinión personal/explicación sobre esta práctica
+## 5. Personal opinion/explanation on this exercise
 
-La solución al ejercicio 1 es muy sencilla: Al ejecutar el programa me he percatado de que se muestra más de una vez el mensaje de pulsado cuando realmente solo he pulsado el botón una vez. Para ello, lo único que he modificdo del programa original es que en la última línea del programa, dentro del bucle infinito, he añadido un sistema antirebote (mencionado así en el enunciado de esta práctica), que consiste en un time.sleep(0.1), ya que cuanto menor es la frecuencia, mayor será el alivio para el procesador, sin embargo, por este método siempre nos perderemos algunas comprobaciones. 
+The solution to exercise 1 is very simple: When running the program, I noticed that the "pressed" message was displayed more than once when I had actually only pressed the button once. To do this, the only thing I modified from the original program was that on the last line of the program, inside the infinite loop, I added a debounce system (mentioned as such in the statement of this exercise), which consists of a time.sleep(0.1). The lower the frequency, the greater the relief for the processor. However, using this method, we will always miss some checks.
 
-Por otro lado, a la hora de hablar del ejercicio 2, con cada uno de sus respectivos apartados, no he conseguido encontrar ninguna solución correcta, ya que para realizar el programa que se nos plantea en el enunciado se necesitaría crear más de un hilo para cada led, ya que no se pueden manejar varios leds con su respectivo botón dentro de  un mismo hilo. En la siguiente práctica resolveremos este problema de una forma mucho más adecuada, ya que lo que se hace en la práctica 4 es introducir los hilos, y algunos de los ejemplos más comunes sobre esta estructura de programación en Python.
+On the other hand, when discussing exercise 2 and its respective sections, I haven't been able to find a correct solution. To create the program outlined in the statement, it would be necessary to create more than one thread for each LED, since multiple LEDs cannot be managed with their respective buttons within the same thread. In the following exercise, we'll solve this problem in a much more appropriate way, since exercise 4 introduces threads and some of the most common examples of this programming structure in Python.
 
-Siguiendo con este ejercicio, en los apartados de interrupcionedge y sininterrupciones me he encontrado con que, a la hora de tener bucles infinitos, lo he intentado por un método que consiste en duplicar el código y tener uno por cada led que vayamos a hacer funcionar, pero a la hora de escribirlo e intentar ejecutarlo me he percatado de que la copia del código quedaba como "ensombrecida" respecto a la primera, y el programa solo actúa como si tuviera en cuenta uno de los dos botones y uno de los dos pulsadores. Y por último, hablando del apartado de restante (interrupcionevent), al ver la estructura e intentar ejecutarlo he observado que las funciones y la manera en la que está escrito el código parece preparada para hacer funcionar a solo un led, por lo que tampoco he conseguido resolver este apartado.
+Continuing with this exercise, in the interruptedge and sininterrupted sections, I found that, when it came to having infinite loops, I tried a method that consisted of duplicating the code and having one for each LED that we were going to operate, but when it came to writing it and trying to execute it, I realized that the copy of the code was "shadowed" with respect to the first, and the program only acted as if it took into account one of the two buttons and one of the two pushbuttons. And finally, speaking of the remaining section (interruptevent), when looking at the structure and trying to execute it, I observed that the functions and the way in which the code is written seem prepared to operate only one LED, so I have not been able to solve this section either.
 
-Resumiendo, no he podido realizar esta práctica, ya que para obtener una solución correcta se necesitan varios hilos, y de esta manera poder manejar con más soltura y precisión los leds con sus respectivos pulsadores, en el repositorio de esta práctica se incluyen los tres programas que ya se nos han ofrecido en un principio, y por otro lado, la "solución" que he dado a los ejercicios y que está explicada en el anterior párrafo.
+In short, I wasn't able to complete this exercise because obtaining a correct solution requires several wires. This allows me to more easily and accurately manipulate the LEDs with their respective pushbuttons. The repository for this exercise includes the three programs that were previously provided, as well as the "solution" I provided to the exercises, explained in the previous paragraph.
 
-En la siguiente práctica ya podremos resolver estos ejercicios correctamente mediante el uso de hilos.
+In the next exercise, we'll be able to solve these exercises correctly using wires.
